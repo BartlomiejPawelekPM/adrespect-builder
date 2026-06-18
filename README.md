@@ -12,10 +12,15 @@ Generator Landing Page'y wspierany przez AI. Projekt automatyzujący proces twor
 ### Frontend & UI
 - **Stylizacja:** Tailwind CSS v4
 - **Templating:** Blade
+- **Interaktywność:** Alpine.js
 
-### Integracje & Narzędzia
-- **AI:** OpenAI API
-- **Build Tools:** Vite, NPM
+### Integracje & AI
+- **AI Providers:** OpenAI API, Google Gemini API
+- **Architecture:** Adapter Pattern (dynamiczny routing zapytań do różnych dostawców AI)
+
+### Narzędzia & Build Tools
+- **Zarządzanie zależnościami:** Composer (PHP), NPM (JS)
+- **Build Tools:** Vite
 
 ## Kluczowe cechy
 - **AI Integration:** Automatyczne generowanie struktury sekcji i treści biznesowych za pomocą AI.
