@@ -28,7 +28,8 @@ Generator Landing Page'y wspierany przez AI. Projekt automatyzujący proces twor
 - **Defensive Programming:** Zaimplementowany mechanizm fail-safe (fallback do Tailwind CDN w przypadku błędu kompilacji Vite), gwarantujący poprawne wyświetlanie UI w każdych warunkach.
 - **Responsive:** Design w pełni responsywny.
 
-Logika AI – Architektura systemu
+## Logika AI – Architektura systemu
+
 Jak sekcje mają być wybierane?
 Wybiera je AI na podstawie promptu użytkownika. AI decyduje, które sekcje (np. hero, contact) najlepiej pasują do opisu firmy, a kod źródłowy jedynie filtruje ten wybór, aby był zgodny z dostępnymi komponentami.
 
