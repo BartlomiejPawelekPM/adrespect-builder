@@ -36,7 +36,7 @@ composer install && npm install
 cp .env.example .env
 # Wygeneruj klucz aplikacji
 php artisan key:generate
-# Uzupełnij w pliku .env klucz: OPENAI_API_KEY=sk-...
+# Uzupełnij w pliku .env klucz: OPENAI_API_KEY=...
 
 # 4. Baza danych
 php artisan migrate
