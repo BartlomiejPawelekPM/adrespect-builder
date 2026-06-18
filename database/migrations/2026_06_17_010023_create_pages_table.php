@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->string('title');
             $table->string('slug')->unique();
-            $table->longText('content')->nullable();
+            $table->json('content')->nullable();
             $table->text('ai_prompt')->nullable();
             $table->string('status')->default('draft');
             $table->softDeletes();
